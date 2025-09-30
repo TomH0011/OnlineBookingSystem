@@ -1,0 +1,24 @@
+# Database Configuration
+DB_USERNAME=root
+DB_PASSWORD=password
+
+# JWT Secret - CHANGE THIS TO A SECURE RANDOM STRING
+JWT_SECRET=mySecretKey123456789012345678901234567890
+
+# Stripe Configuration
+STRIPE_SECRET_KEY=sk_test_your_stripe_secret_key_here
+STRIPE_PUBLISHABLE_KEY=pk_test_your_stripe_publishable_key_here
+
+# OAuth Configuration
+GOOGLE_CLIENT_ID=your_google_client_id_here
+GOOGLE_CLIENT_SECRET=your_google_client_secret_here
+FACEBOOK_CLIENT_ID=your_facebook_client_id_here
+FACEBOOK_CLIENT_SECRET=your_facebook_client_secret_here
+
+# Email Configuration
+MAIL_HOST=smtp.gmail.com
+MAIL_USERNAME=your_email@gmail.com
+MAIL_PASSWORD=your_app_password_here
+
+# AI Backend URL
+AI_BACKEND_URL=http://localhost:8000

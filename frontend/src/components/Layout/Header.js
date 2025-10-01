@@ -14,12 +14,11 @@ import {
   DropdownMenu,
   DropdownItem,
   Avatar,
-  Switch,
-  useTheme
+  Switch
 } from '@nextui-org/react';
 import { useAuth } from '../../contexts/AuthContext';
 import { useTheme as useThemeContext } from '../../contexts/ThemeContext';
-import { SunIcon, MoonIcon, UserIcon, CogIcon, LogOutIcon } from '@heroicons/react/24/outline';
+import { SunIcon, MoonIcon, UserIcon, CogIcon, ArrowRightOnRectangleIcon } from '@heroicons/react/24/outline';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -109,7 +108,7 @@ const Header = () => {
                   <p className="font-semibold">Signed in as</p>
                   <p className="font-semibold">{user.email}</p>
                 </DropdownItem>
-                <DropdownItem key="profile" startContent={<UserIcon className="w-4 h-4" />}>
+                <DropdownItem key="profile-link" startContent={<UserIcon className="w-4 h-4" />}>
                   My Profile
                 </DropdownItem>
                 <DropdownItem key="settings" startContent={<CogIcon className="w-4 h-4" />}>
@@ -118,7 +117,7 @@ const Header = () => {
                 <DropdownItem 
                   key="logout" 
                   color="danger" 
-                  startContent={<LogOutIcon className="w-4 h-4" />}
+                  startContent={<ArrowRightOnRectangleIcon className="w-4 h-4" />}
                   onPress={handleLogout}
                 >
                   Log Out

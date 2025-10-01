@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { 
-  Footer as NextUIFooter,
   Link as NextUILink,
   Button,
   Input
@@ -17,7 +16,7 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <NextUIFooter className="bg-background border-t border-divider">
+    <footer className="bg-background border-t border-divider">
       <div className="max-w-7xl mx-auto px-4 py-8">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Company Info */}
@@ -57,7 +56,7 @@ const Footer = () => {
           {/* Quick Links */}
           <div className="space-y-4">
             <h3 className="font-semibold text-foreground">Quick Links</h3>
-            <div className="space-y-2">
+            <div className="flex flex-col space-y-2">
               <NextUILink as={Link} to="/" className="text-foreground-600 hover:text-primary">
                 Home
               </NextUILink>
@@ -79,7 +78,7 @@ const Footer = () => {
           {/* Services */}
           <div className="space-y-4">
             <h3 className="font-semibold text-foreground">Services</h3>
-            <div className="space-y-2">
+            <div className="flex flex-col space-y-2">
               <NextUILink as={Link} to="/services/consultation" className="text-foreground-600 hover:text-primary">
                 Consultation
               </NextUILink>
@@ -152,7 +151,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-    </NextUIFooter>
+    </footer>
   );
 };
 

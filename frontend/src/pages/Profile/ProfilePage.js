@@ -8,8 +8,9 @@ import {
   Input,
   Avatar,
   Divider,
-  Switch
-} from '@nextui-org/react';
+  Switch,
+  Chip
+} from '@heroui/react';
 import { useAuth } from '../../contexts/AuthContext';
 import { UserIcon, EnvelopeIcon, KeyIcon, BellIcon } from '@heroicons/react/24/outline';
 import toast from 'react-hot-toast';

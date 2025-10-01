@@ -7,7 +7,7 @@ import {
   Input,
   Divider,
   Chip
-} from '@nextui-org/react';
+} from '@heroui/react';
 import { CreditCardIcon, CheckCircleIcon, ClockIcon } from '@heroicons/react/24/outline';
 import toast from 'react-hot-toast';
 

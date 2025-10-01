@@ -7,7 +7,7 @@ import {
   Button,
   Chip,
   Progress
-} from '@nextui-org/react';
+} from '@heroui/react';
 import { useAuth } from '../../contexts/AuthContext';
 import {
   CalendarDaysIcon,

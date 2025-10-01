@@ -15,7 +15,7 @@ import {
   Input,
   Select,
   SelectItem
-} from '@nextui-org/react';
+} from '@heroui/react';
 import {
   UserGroupIcon,
   CalendarDaysIcon,

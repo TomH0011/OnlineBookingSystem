@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter } from 'react-router-dom';
-import { NextUIProvider } from '@nextui-org/react';
+import { HeroUIProvider } from '@heroui/react';
 import { QueryClient, QueryClientProvider } from 'react-query';
 import { Toaster } from 'react-hot-toast';
 import { AuthProvider } from './contexts/AuthContext';
@@ -17,12 +17,12 @@ root.render(
     <QueryClientProvider client={queryClient}>
       <BrowserRouter>
         <ThemeProvider>
-          <NextUIProvider>
+          <HeroUIProvider>
             <AuthProvider>
               <App />
               <Toaster position="top-right" />
             </AuthProvider>
-          </NextUIProvider>
+          </HeroUIProvider>
         </ThemeProvider>
       </BrowserRouter>
     </QueryClientProvider>

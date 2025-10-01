@@ -15,7 +15,7 @@ import {
   DropdownItem,
   Avatar,
   Switch
-} from '@nextui-org/react';
+} from '@heroui/react';
 import { useAuth } from '../../contexts/AuthContext';
 import { useTheme as useThemeContext } from '../../contexts/ThemeContext';
 import { SunIcon, MoonIcon, UserIcon, CogIcon, ArrowRightOnRectangleIcon } from '@heroicons/react/24/outline';

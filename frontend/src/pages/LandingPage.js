@@ -7,7 +7,7 @@ import {
   CardHeader,
   Chip,
   Divider
-} from '@nextui-org/react';
+} from '@heroui/react';
 import {
   CalendarDaysIcon,
   ChatBubbleLeftRightIcon,

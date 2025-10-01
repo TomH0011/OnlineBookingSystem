@@ -4,7 +4,7 @@ import {
   Link as NextUILink,
   Button,
   Input
-} from '@nextui-org/react';
+} from '@heroui/react';
 import { 
   EnvelopeIcon, 
   PhoneIcon, 

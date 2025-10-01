@@ -10,7 +10,7 @@ import {
   Select,
   SelectItem,
   Divider
-} from '@nextui-org/react';
+} from '@heroui/react';
 import { useAuth } from '../../contexts/AuthContext';
 import { EyeIcon, EyeSlashIcon } from '@heroicons/react/24/outline';
 import toast from 'react-hot-toast';

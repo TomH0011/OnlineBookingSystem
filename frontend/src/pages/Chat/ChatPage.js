@@ -9,7 +9,7 @@ import {
   Chip,
   Avatar,
   ScrollShadow
-} from '@nextui-org/react';
+} from '@heroui/react';
 import {
   PaperAirplaneIcon,
   MicrophoneIcon,
